@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const { webhookHandler } = require("./lib/webhookHandler");
+const { webhookHandler } = require("../lib/webhookHandler");
 
 const app = express();
 app.use(express.json());
